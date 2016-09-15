@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F812F1481BA9091A00C83412 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F812F1471BA9091A00C83412 /* main.m */; };
+		F812F14B1BA9091A00C83412 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F812F14A1BA9091A00C83412 /* AppDelegate.m */; };
+		F812F14E1BA9091A00C83412 /* LockUnlockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F812F14D1BA9091A00C83412 /* LockUnlockViewController.m */; };
+		F812F1511BA9091A00C83412 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F812F14F1BA9091A00C83412 /* Main.storyboard */; };
+		F812F1531BA9091A00C83412 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F812F1521BA9091A00C83412 /* Images.xcassets */; };
+		F812F1561BA9091A00C83412 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F812F1541BA9091A00C83412 /* LaunchScreen.xib */; };
+		F812F1621BA9091A00C83412 /* Arduino_Door_LockTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F812F1611BA9091A00C83412 /* Arduino_Door_LockTests.m */; };
+		F831DA1F1BFABF4500C9B48D /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = F831DA1E1BFABF4500C9B48D /* Reachability.m */; };
+		F831DA211BFAC0C100C9B48D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F831DA201BFAC0C100C9B48D /* SystemConfiguration.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F812F15C1BA9091A00C83412 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F812F13A1BA9091A00C83412 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F812F1411BA9091A00C83412;
+			remoteInfo = "Arduino Door Lock";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F812F1421BA9091A00C83412 /* Arduino Door Lock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Arduino Door Lock.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F812F1461BA9091A00C83412 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F812F1471BA9091A00C83412 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F812F1491BA9091A00C83412 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F812F14A1BA9091A00C83412 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F812F14C1BA9091A00C83412 /* LockUnlockViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LockUnlockViewController.h; sourceTree = "<group>"; };
+		F812F14D1BA9091A00C83412 /* LockUnlockViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LockUnlockViewController.m; sourceTree = "<group>"; };
+		F812F1501BA9091A00C83412 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F812F1521BA9091A00C83412 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F812F1551BA9091A00C83412 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F812F15B1BA9091A00C83412 /* Arduino Door LockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Arduino Door LockTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F812F1601BA9091A00C83412 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F812F1611BA9091A00C83412 /* Arduino_Door_LockTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Arduino_Door_LockTests.m; sourceTree = "<group>"; };
+		F831DA1D1BFABF4500C9B48D /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		F831DA1E1BFABF4500C9B48D /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		F831DA201BFAC0C100C9B48D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F812F13F1BA9091A00C83412 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F831DA211BFAC0C100C9B48D /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F812F1581BA9091A00C83412 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F812F1391BA9091A00C83412 = {
+			isa = PBXGroup;
+			children = (
+				F831DA201BFAC0C100C9B48D /* SystemConfiguration.framework */,
+				F812F1441BA9091A00C83412 /* Arduino Door Lock */,
+				F812F15E1BA9091A00C83412 /* Arduino Door LockTests */,
+				F812F1431BA9091A00C83412 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F812F1431BA9091A00C83412 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F812F1421BA9091A00C83412 /* Arduino Door Lock.app */,
+				F812F15B1BA9091A00C83412 /* Arduino Door LockTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F812F1441BA9091A00C83412 /* Arduino Door Lock */ = {
+			isa = PBXGroup;
+			children = (
+				F812F1491BA9091A00C83412 /* AppDelegate.h */,
+				F812F14A1BA9091A00C83412 /* AppDelegate.m */,
+				F812F14C1BA9091A00C83412 /* LockUnlockViewController.h */,
+				F812F14D1BA9091A00C83412 /* LockUnlockViewController.m */,
+				F812F14F1BA9091A00C83412 /* Main.storyboard */,
+				F812F1521BA9091A00C83412 /* Images.xcassets */,
+				F831DA1D1BFABF4500C9B48D /* Reachability.h */,
+				F831DA1E1BFABF4500C9B48D /* Reachability.m */,
+				F812F1541BA9091A00C83412 /* LaunchScreen.xib */,
+				F812F1451BA9091A00C83412 /* Supporting Files */,
+			);
+			path = "Arduino Door Lock";
+			sourceTree = "<group>";
+		};
+		F812F1451BA9091A00C83412 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F812F1461BA9091A00C83412 /* Info.plist */,
+				F812F1471BA9091A00C83412 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F812F15E1BA9091A00C83412 /* Arduino Door LockTests */ = {
+			isa = PBXGroup;
+			children = (
+				F812F1611BA9091A00C83412 /* Arduino_Door_LockTests.m */,
+				F812F15F1BA9091A00C83412 /* Supporting Files */,
+			);
+			path = "Arduino Door LockTests";
+			sourceTree = "<group>";
+		};
+		F812F15F1BA9091A00C83412 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F812F1601BA9091A00C83412 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F812F1411BA9091A00C83412 /* Arduino Door Lock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F812F1651BA9091A00C83412 /* Build configuration list for PBXNativeTarget "Arduino Door Lock" */;
+			buildPhases = (
+				F812F13E1BA9091A00C83412 /* Sources */,
+				F812F13F1BA9091A00C83412 /* Frameworks */,
+				F812F1401BA9091A00C83412 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Arduino Door Lock";
+			productName = "Arduino Door Lock";
+			productReference = F812F1421BA9091A00C83412 /* Arduino Door Lock.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F812F15A1BA9091A00C83412 /* Arduino Door LockTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F812F1681BA9091A00C83412 /* Build configuration list for PBXNativeTarget "Arduino Door LockTests" */;
+			buildPhases = (
+				F812F1571BA9091A00C83412 /* Sources */,
+				F812F1581BA9091A00C83412 /* Frameworks */,
+				F812F1591BA9091A00C83412 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F812F15D1BA9091A00C83412 /* PBXTargetDependency */,
+			);
+			name = "Arduino Door LockTests";
+			productName = "Arduino Door LockTests";
+			productReference = F812F15B1BA9091A00C83412 /* Arduino Door LockTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F812F13A1BA9091A00C83412 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Brian Team";
+				TargetAttributes = {
+					F812F1411BA9091A00C83412 = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = P93EM6LJKE;
+					};
+					F812F15A1BA9091A00C83412 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = F812F1411BA9091A00C83412;
+					};
+				};
+			};
+			buildConfigurationList = F812F13D1BA9091A00C83412 /* Build configuration list for PBXProject "Arduino Door Lock" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F812F1391BA9091A00C83412;
+			productRefGroup = F812F1431BA9091A00C83412 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F812F1411BA9091A00C83412 /* Arduino Door Lock */,
+				F812F15A1BA9091A00C83412 /* Arduino Door LockTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F812F1401BA9091A00C83412 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F812F1511BA9091A00C83412 /* Main.storyboard in Resources */,
+				F812F1561BA9091A00C83412 /* LaunchScreen.xib in Resources */,
+				F812F1531BA9091A00C83412 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F812F1591BA9091A00C83412 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F812F13E1BA9091A00C83412 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F812F14E1BA9091A00C83412 /* LockUnlockViewController.m in Sources */,
+				F812F14B1BA9091A00C83412 /* AppDelegate.m in Sources */,
+				F831DA1F1BFABF4500C9B48D /* Reachability.m in Sources */,
+				F812F1481BA9091A00C83412 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F812F1571BA9091A00C83412 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F812F1621BA9091A00C83412 /* Arduino_Door_LockTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F812F15D1BA9091A00C83412 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F812F1411BA9091A00C83412 /* Arduino Door Lock */;
+			targetProxy = F812F15C1BA9091A00C83412 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F812F14F1BA9091A00C83412 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F812F1501BA9091A00C83412 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F812F1541BA9091A00C83412 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F812F1551BA9091A00C83412 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F812F1631BA9091A00C83412 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F812F1641BA9091A00C83412 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F812F1661BA9091A00C83412 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Arduino Door Lock/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "secondstring.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		F812F1671BA9091A00C83412 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Arduino Door Lock/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "secondstring.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		F812F1691BA9091A00C83412 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Arduino Door LockTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "secondstring.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Arduino Door Lock.app/Arduino Door Lock";
+			};
+			name = Debug;
+		};
+		F812F16A1BA9091A00C83412 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Arduino Door LockTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "secondstring.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Arduino Door Lock.app/Arduino Door Lock";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F812F13D1BA9091A00C83412 /* Build configuration list for PBXProject "Arduino Door Lock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F812F1631BA9091A00C83412 /* Debug */,
+				F812F1641BA9091A00C83412 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F812F1651BA9091A00C83412 /* Build configuration list for PBXNativeTarget "Arduino Door Lock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F812F1661BA9091A00C83412 /* Debug */,
+				F812F1671BA9091A00C83412 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F812F1681BA9091A00C83412 /* Build configuration list for PBXNativeTarget "Arduino Door LockTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F812F1691BA9091A00C83412 /* Debug */,
+				F812F16A1BA9091A00C83412 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F812F13A1BA9091A00C83412 /* Project object */;
+}
